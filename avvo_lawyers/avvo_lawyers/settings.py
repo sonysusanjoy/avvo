@@ -15,8 +15,8 @@ SPIDER_MODULES = ['avvo_lawyers.spiders']
 NEWSPIDER_MODULE = 'avvo_lawyers.spiders'
 
 #Export as CSV Feed
-#FEED_FORMAT = "csv"
-#FEED_URI = "allawyers.csv"
+FEED_FORMAT = "csv"
+FEED_URI = "allawyers.csv"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'avvo_lawyers (+http://www.yourdomain.com)'
